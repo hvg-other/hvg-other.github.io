@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>Szépvölgyiház</title>
+
+  <script type="module">
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" charset="utf-8" >
+
+  <meta name="description" content="Irodaterület kiadó">
+  <meta property="og:title" content="Szépvölgyiház">
+  <meta property="og:description" content="A Kolosy térnél zöldövezetben irodaterület kiadó, bérelhető">
+  <meta property="og:locale" content="hu_HU">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FF00FF">
+  <style>
+		body, html {
+		  height: 100%;
+		  margin: 0;
+		  font-family: 'allerregular';
+		  background-color: #cedc27;
+		}
+		.firstRow {
+			color: white;
+			text-align: center;
+			font-size: x-large;
+			background-color: #5b808b;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		.secoundRow {
+			color: black;
+			text-align: left;
+			font-size: medium;
+			background-color: #cedc27;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		.image {
+			background-image: url("assets/bgszh.jpg");
+
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.image > img {
+			margin: auto;
+		}
+  </style>
+</head>
+
+<body>
+  <!-- Content -->
+  <div class="firstRow">
+	<p>A Kolosy térnél, <b>zöldövezetben</b><br> irodaterület kiadó</p>
+  </div>
+  <div class="image"><img src="assets/szepvolgyihaz.jpg" /></div>
+	
+  <div class="secoundRow">
+    <div class="container mx-auto grid md:grid-cols-4 sm:grid-cols-3 gap-4">
+		<div class="column1 col-start-1 md:col-start-2 m-4 lg:m-px">
+			<p><b>Bérelhető terület:</b></p>
+			<p>500 – 1500 négyzetméter</p>
+			<p><b>Értékesítés:</b><a href="tel:+36 30 821 0019"> +36 30 821 0019</a></p>
+		</div>
+		<div class="column2 col-start-3">
+			<p><b>Szolgáltatások:</b></p>
+			<p>felszíni parkolók és mélygarázs,<br>
+állandó 24 órás recepció és biztonsági szolgálat,<br>
+bérelhető tárgyaló és konferenciatermek.</p>
+		</div>
+	</div>
+  </div>
+</body>
+</html>
